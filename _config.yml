@@ -1,1 +1,5 @@
 baseurl: /blog
+comments :
+provider : disqus
+disqus :
+short_name : bigwhiteshark.disqus.com
