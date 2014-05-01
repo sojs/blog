@@ -1,4 +1,4 @@
-new
+blog
 ===
 
-my site
+my blog
