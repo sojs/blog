@@ -1,0 +1,13 @@
+---
+layout: post
+title: sojs,完善模块定义与异步调用
+---
+<h2>{{ page.title }}</h2>
+<p>添加模块define(id?, deps?, factory)，支持Modules/Transport 规范。如
+	define('a.js', ['b.js,c.js'], function(require, exports, module) {
+
+	  // 模块代码
+
+	})
+</p>
+<p>完善require异步调用，支持同时引用多个id模块，如require(['a.js','b.js']);</p>
