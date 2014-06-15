@@ -1,6 +1,9 @@
 ---
 layout: post
-title: sojs,修复require方法
+title: sojs,完善功能，并修复多个BUG
 ---
 <h2>{{ page.title }}</h2>
-<p>修复require(['a.js','b.js'],callback)方法</p>
+<p>修复require(['a.js','b.js'],callback)异步方法的回调参数问题；</p>
+<p>define模块，添加同步加载模块功能;</p>
+<p>完善define功能，支持文件内定义多个模块，不再是一个文件对应一个模块；</p>
+<p>修订模块标识符，模块如果是文件，扩展名默认为.js；</p>
