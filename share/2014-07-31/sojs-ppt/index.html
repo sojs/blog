@@ -303,6 +303,7 @@
                                     Function.prototype.bind ? '' : 'es5-safe',
                                     this.JSON ? '' : 'json'
                                 ],
+                                mode:'cmd', //执行机制,默认为cmd,懒执行，依赖就近原则
                                 base: 'http://example.com/path/to/base/', // so.js 的基础路径
                                 charset: 'utf-8' // 文件编码
                             });
